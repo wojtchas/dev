@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C413970D19AFB6E200D6C343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413970C19AFB6E200D6C343 /* AppDelegate.swift */; };
+		C413970F19AFB6E200D6C343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413970E19AFB6E200D6C343 /* ViewController.swift */; };
+		C413971219AFB6E200D6C343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C413971019AFB6E200D6C343 /* Main.storyboard */; };
+		C413971419AFB6E200D6C343 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C413971319AFB6E200D6C343 /* Images.xcassets */; };
+		C413972019AFB6E200D6C343 /* HomeLightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413971F19AFB6E200D6C343 /* HomeLightsTests.swift */; };
+		C47BDB2C19B12971006A710B /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BDB2B19B12971006A710B /* json.swift */; };
+		C47EEEAA19CE288300AFC8C5 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = C47EEEA819CE288300AFC8C5 /* icon80.png */; };
+		C47EEEAB19CE288300AFC8C5 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = C47EEEA919CE288300AFC8C5 /* icon120.png */; };
+		C4EAF41119CE247800939C88 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EAF40F19CE247800939C88 /* off.png */; };
+		C4EAF41219CE247800939C88 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EAF41019CE247800939C88 /* on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C413971A19AFB6E200D6C343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41396FF19AFB6E200D6C343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C413970619AFB6E200D6C343;
+			remoteInfo = HomeLights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C413970719AFB6E200D6C343 /* HomeLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C413970B19AFB6E200D6C343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C413970C19AFB6E200D6C343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C413970E19AFB6E200D6C343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C413971119AFB6E200D6C343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C413971319AFB6E200D6C343 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C413971919AFB6E200D6C343 /* HomeLightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeLightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C413971E19AFB6E200D6C343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C413971F19AFB6E200D6C343 /* HomeLightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLightsTests.swift; sourceTree = "<group>"; };
+		C47BDB2B19B12971006A710B /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		C47EEEA819CE288300AFC8C5 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		C47EEEA919CE288300AFC8C5 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		C4EAF40F19CE247800939C88 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		C4EAF41019CE247800939C88 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C413970419AFB6E200D6C343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C413971619AFB6E200D6C343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41396FE19AFB6E200D6C343 = {
+			isa = PBXGroup;
+			children = (
+				C413970919AFB6E200D6C343 /* HomeLights */,
+				C413971C19AFB6E200D6C343 /* HomeLightsTests */,
+				C413970819AFB6E200D6C343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C413970819AFB6E200D6C343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C413970719AFB6E200D6C343 /* HomeLights.app */,
+				C413971919AFB6E200D6C343 /* HomeLightsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C413970919AFB6E200D6C343 /* HomeLights */ = {
+			isa = PBXGroup;
+			children = (
+				C47EEEA819CE288300AFC8C5 /* icon80.png */,
+				C47EEEA919CE288300AFC8C5 /* icon120.png */,
+				C47BDB2B19B12971006A710B /* json.swift */,
+				C4EAF40F19CE247800939C88 /* off.png */,
+				C4EAF41019CE247800939C88 /* on.png */,
+				C413970C19AFB6E200D6C343 /* AppDelegate.swift */,
+				C413970E19AFB6E200D6C343 /* ViewController.swift */,
+				C413971019AFB6E200D6C343 /* Main.storyboard */,
+				C413971319AFB6E200D6C343 /* Images.xcassets */,
+				C413970A19AFB6E200D6C343 /* Supporting Files */,
+			);
+			path = HomeLights;
+			sourceTree = "<group>";
+		};
+		C413970A19AFB6E200D6C343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C413970B19AFB6E200D6C343 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C413971C19AFB6E200D6C343 /* HomeLightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C413971F19AFB6E200D6C343 /* HomeLightsTests.swift */,
+				C413971D19AFB6E200D6C343 /* Supporting Files */,
+			);
+			path = HomeLightsTests;
+			sourceTree = "<group>";
+		};
+		C413971D19AFB6E200D6C343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C413971E19AFB6E200D6C343 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C413970619AFB6E200D6C343 /* HomeLights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C413972319AFB6E200D6C343 /* Build configuration list for PBXNativeTarget "HomeLights" */;
+			buildPhases = (
+				C413970319AFB6E200D6C343 /* Sources */,
+				C413970419AFB6E200D6C343 /* Frameworks */,
+				C413970519AFB6E200D6C343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeLights;
+			productName = HomeLights;
+			productReference = C413970719AFB6E200D6C343 /* HomeLights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C413971819AFB6E200D6C343 /* HomeLightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C413972619AFB6E200D6C343 /* Build configuration list for PBXNativeTarget "HomeLightsTests" */;
+			buildPhases = (
+				C413971519AFB6E200D6C343 /* Sources */,
+				C413971619AFB6E200D6C343 /* Frameworks */,
+				C413971719AFB6E200D6C343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C413971B19AFB6E200D6C343 /* PBXTargetDependency */,
+			);
+			name = HomeLightsTests;
+			productName = HomeLightsTests;
+			productReference = C413971919AFB6E200D6C343 /* HomeLightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41396FF19AFB6E200D6C343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wojciech Stasiński";
+				TargetAttributes = {
+					C413970619AFB6E200D6C343 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = MYFP846GSZ;
+					};
+					C413971819AFB6E200D6C343 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C413970619AFB6E200D6C343;
+					};
+				};
+			};
+			buildConfigurationList = C413970219AFB6E200D6C343 /* Build configuration list for PBXProject "HomeLights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41396FE19AFB6E200D6C343;
+			productRefGroup = C413970819AFB6E200D6C343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C413970619AFB6E200D6C343 /* HomeLights */,
+				C413971819AFB6E200D6C343 /* HomeLightsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C413970519AFB6E200D6C343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C413971219AFB6E200D6C343 /* Main.storyboard in Resources */,
+				C4EAF41119CE247800939C88 /* off.png in Resources */,
+				C47EEEAB19CE288300AFC8C5 /* icon120.png in Resources */,
+				C4EAF41219CE247800939C88 /* on.png in Resources */,
+				C413971419AFB6E200D6C343 /* Images.xcassets in Resources */,
+				C47EEEAA19CE288300AFC8C5 /* icon80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C413971719AFB6E200D6C343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C413970319AFB6E200D6C343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C413970F19AFB6E200D6C343 /* ViewController.swift in Sources */,
+				C413970D19AFB6E200D6C343 /* AppDelegate.swift in Sources */,
+				C47BDB2C19B12971006A710B /* json.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C413971519AFB6E200D6C343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C413972019AFB6E200D6C343 /* HomeLightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C413971B19AFB6E200D6C343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C413970619AFB6E200D6C343 /* HomeLights */;
+			targetProxy = C413971A19AFB6E200D6C343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C413971019AFB6E200D6C343 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C413971119AFB6E200D6C343 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C413972119AFB6E200D6C343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C413972219AFB6E200D6C343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C413972419AFB6E200D6C343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HomeLights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C413972519AFB6E200D6C343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HomeLights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C413972719AFB6E200D6C343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeLightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeLights.app/HomeLights";
+			};
+			name = Debug;
+		};
+		C413972819AFB6E200D6C343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeLightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeLights.app/HomeLights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C413970219AFB6E200D6C343 /* Build configuration list for PBXProject "HomeLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C413972119AFB6E200D6C343 /* Debug */,
+				C413972219AFB6E200D6C343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C413972319AFB6E200D6C343 /* Build configuration list for PBXNativeTarget "HomeLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C413972419AFB6E200D6C343 /* Debug */,
+				C413972519AFB6E200D6C343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C413972619AFB6E200D6C343 /* Build configuration list for PBXNativeTarget "HomeLightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C413972719AFB6E200D6C343 /* Debug */,
+				C413972819AFB6E200D6C343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41396FF19AFB6E200D6C343 /* Project object */;
+}

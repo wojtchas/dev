@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41F522019AE83E2008DDF6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41F521F19AE83E2008DDF6D /* AppDelegate.swift */; };
+		C41F522219AE83E2008DDF6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41F522119AE83E2008DDF6D /* ViewController.swift */; };
+		C41F522519AE83E2008DDF6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41F522319AE83E2008DDF6D /* Main.storyboard */; };
+		C41F522719AE83E2008DDF6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41F522619AE83E2008DDF6D /* Images.xcassets */; };
+		C41F523319AE83E3008DDF6D /* DramaButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41F523219AE83E3008DDF6D /* DramaButtonTests.swift */; };
+		C41F523D19AE8479008DDF6D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = C41F523C19AE8479008DDF6D /* button.png */; };
+		C41F523F19AE848C008DDF6D /* DramaScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = C41F523E19AE848C008DDF6D /* DramaScore.wav */; };
+		C41F524119AE8C4C008DDF6D /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41F524019AE8C4C008DDF6D /* GameKit.framework */; };
+		C41F524319AE8C52008DDF6D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41F524219AE8C52008DDF6D /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C41F522D19AE83E2008DDF6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41F521219AE83E2008DDF6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41F521919AE83E2008DDF6D;
+			remoteInfo = DramaButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C41F521A19AE83E2008DDF6D /* DramaButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DramaButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41F521E19AE83E2008DDF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41F521F19AE83E2008DDF6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C41F522119AE83E2008DDF6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C41F522419AE83E2008DDF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C41F522619AE83E2008DDF6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C41F522C19AE83E2008DDF6D /* DramaButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DramaButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41F523119AE83E3008DDF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41F523219AE83E3008DDF6D /* DramaButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaButtonTests.swift; sourceTree = "<group>"; };
+		C41F523C19AE8479008DDF6D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		C41F523E19AE848C008DDF6D /* DramaScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DramaScore.wav; sourceTree = "<group>"; };
+		C41F524019AE8C4C008DDF6D /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C41F524219AE8C52008DDF6D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C41F521719AE83E2008DDF6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41F524119AE8C4C008DDF6D /* GameKit.framework in Frameworks */,
+				C41F524319AE8C52008DDF6D /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41F522919AE83E2008DDF6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41F521119AE83E2008DDF6D = {
+			isa = PBXGroup;
+			children = (
+				C41F524219AE8C52008DDF6D /* StoreKit.framework */,
+				C41F524019AE8C4C008DDF6D /* GameKit.framework */,
+				C41F521C19AE83E2008DDF6D /* DramaButton */,
+				C41F522F19AE83E3008DDF6D /* DramaButtonTests */,
+				C41F521B19AE83E2008DDF6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C41F521B19AE83E2008DDF6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41F521A19AE83E2008DDF6D /* DramaButton.app */,
+				C41F522C19AE83E2008DDF6D /* DramaButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C41F521C19AE83E2008DDF6D /* DramaButton */ = {
+			isa = PBXGroup;
+			children = (
+				C41F523E19AE848C008DDF6D /* DramaScore.wav */,
+				C41F523C19AE8479008DDF6D /* button.png */,
+				C41F521F19AE83E2008DDF6D /* AppDelegate.swift */,
+				C41F522119AE83E2008DDF6D /* ViewController.swift */,
+				C41F522319AE83E2008DDF6D /* Main.storyboard */,
+				C41F522619AE83E2008DDF6D /* Images.xcassets */,
+				C41F521D19AE83E2008DDF6D /* Supporting Files */,
+			);
+			path = DramaButton;
+			sourceTree = "<group>";
+		};
+		C41F521D19AE83E2008DDF6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C41F521E19AE83E2008DDF6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C41F522F19AE83E3008DDF6D /* DramaButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C41F523219AE83E3008DDF6D /* DramaButtonTests.swift */,
+				C41F523019AE83E3008DDF6D /* Supporting Files */,
+			);
+			path = DramaButtonTests;
+			sourceTree = "<group>";
+		};
+		C41F523019AE83E3008DDF6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C41F523119AE83E3008DDF6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C41F521919AE83E2008DDF6D /* DramaButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41F523619AE83E3008DDF6D /* Build configuration list for PBXNativeTarget "DramaButton" */;
+			buildPhases = (
+				C41F521619AE83E2008DDF6D /* Sources */,
+				C41F521719AE83E2008DDF6D /* Frameworks */,
+				C41F521819AE83E2008DDF6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DramaButton;
+			productName = DramaButton;
+			productReference = C41F521A19AE83E2008DDF6D /* DramaButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C41F522B19AE83E2008DDF6D /* DramaButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41F523919AE83E3008DDF6D /* Build configuration list for PBXNativeTarget "DramaButtonTests" */;
+			buildPhases = (
+				C41F522819AE83E2008DDF6D /* Sources */,
+				C41F522919AE83E2008DDF6D /* Frameworks */,
+				C41F522A19AE83E2008DDF6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41F522E19AE83E2008DDF6D /* PBXTargetDependency */,
+			);
+			name = DramaButtonTests;
+			productName = DramaButtonTests;
+			productReference = C41F522C19AE83E2008DDF6D /* DramaButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41F521219AE83E2008DDF6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wojciech Stasiński";
+				TargetAttributes = {
+					C41F521919AE83E2008DDF6D = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = MYFP846GSZ;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					C41F522B19AE83E2008DDF6D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C41F521919AE83E2008DDF6D;
+					};
+				};
+			};
+			buildConfigurationList = C41F521519AE83E2008DDF6D /* Build configuration list for PBXProject "DramaButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41F521119AE83E2008DDF6D;
+			productRefGroup = C41F521B19AE83E2008DDF6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41F521919AE83E2008DDF6D /* DramaButton */,
+				C41F522B19AE83E2008DDF6D /* DramaButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C41F521819AE83E2008DDF6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41F522519AE83E2008DDF6D /* Main.storyboard in Resources */,
+				C41F523D19AE8479008DDF6D /* button.png in Resources */,
+				C41F522719AE83E2008DDF6D /* Images.xcassets in Resources */,
+				C41F523F19AE848C008DDF6D /* DramaScore.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41F522A19AE83E2008DDF6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C41F521619AE83E2008DDF6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41F522219AE83E2008DDF6D /* ViewController.swift in Sources */,
+				C41F522019AE83E2008DDF6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41F522819AE83E2008DDF6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41F523319AE83E3008DDF6D /* DramaButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C41F522E19AE83E2008DDF6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C41F521919AE83E2008DDF6D /* DramaButton */;
+			targetProxy = C41F522D19AE83E2008DDF6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C41F522319AE83E2008DDF6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C41F522419AE83E2008DDF6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C41F523419AE83E3008DDF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Wojciech Stasiński (MYFP846GSZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C41F523519AE83E3008DDF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Wojciech Stasiński (MYFP846GSZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41F523719AE83E3008DDF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DramaButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C41F523819AE83E3008DDF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DramaButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C41F523A19AE83E3008DDF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DramaButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DramaButton.app/DramaButton";
+			};
+			name = Debug;
+		};
+		C41F523B19AE83E3008DDF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DramaButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DramaButton.app/DramaButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C41F521519AE83E2008DDF6D /* Build configuration list for PBXProject "DramaButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41F523419AE83E3008DDF6D /* Debug */,
+				C41F523519AE83E3008DDF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41F523619AE83E3008DDF6D /* Build configuration list for PBXNativeTarget "DramaButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41F523719AE83E3008DDF6D /* Debug */,
+				C41F523819AE83E3008DDF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41F523919AE83E3008DDF6D /* Build configuration list for PBXNativeTarget "DramaButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41F523A19AE83E3008DDF6D /* Debug */,
+				C41F523B19AE83E3008DDF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41F521219AE83E2008DDF6D /* Project object */;
+}
